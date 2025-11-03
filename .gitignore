@@ -1,0 +1,39 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter and Colab checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore model and dataset files (large files)
+model/
+dataset/
+*.h5
+*.keras
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore local configuration files
+*.env
+.env
+.vscode/
+.idea/
+
+# Ignore Streamlit cache
+.streamlit/
+__pycache__/
